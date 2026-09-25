@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+test-results/
+playwright-report/
+.sites-runtime/
+*.log
+private-data/
