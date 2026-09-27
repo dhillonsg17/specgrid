@@ -1,12 +1,13 @@
 # SpecGrid
 
-Single-file landing page for SpecGrid's aftermarket catalog audit service.
+Single-file landing page and a separate local Python audit scaffold for SpecGrid's aftermarket catalog audit service.
 
 ## Files
 
 - `index.html` — the complete page, including CSS, SVG icons, and lightweight JavaScript.
 - `.gitignore` — excludes local files, secrets, and generated test artifacts.
 - `docs/HEADLESS_MVP.md` — data contract, entity resolution, rule semantics, and implementation plan for the future local audit engine.
+- `engine/` — runnable Python/DuckDB ingestion scaffold, strict models, synthetic fixtures, and tests. See [engine/README.md](engine/README.md) for setup.
 
 ## Preview
 

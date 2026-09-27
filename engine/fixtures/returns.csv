@@ -1,0 +1,6 @@
+return_id,sku,platform,model_year,returned_at,quantity,reason_code,note,freight_usd,handling_usd
+R-001," 0001 ",BMW G80 M3,2023,2026-09-01,1," brake_interference ","Synthetic: caliper envelope exceeds barrel; exclusion missing",60.00,20.00
+R-002,0002," audi rs6 avant c8 ",2024,2026-09-02,1,HUB_INTERFERENCE,"Synthetic: center bore will not seat on hub",75.00,25.00
+R-003,0003,G80 M3,2023,2026-09-03,1,axle_load_exceeded,"Synthetic: kit approval below required axle load",85.00,25.00
+R-004,0004,Audi C8 RS 6 Avant,2024,2026-09-04,1,BRAKE_INTERFERENCE,"Synthetic: barrel fails required radial gap",90.00,20.00
+R-005,0005," bmw g80 m3 ",2023,2026-09-05,1,hub_interference,"Synthetic: undersized center bore; qualifier blank",55.00,20.00
