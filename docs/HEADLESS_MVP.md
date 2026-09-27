@@ -1,6 +1,6 @@
 # Headless MVP constraint engine
 
-Status: implementation blueprint; no backend is implemented in this repository yet.
+Status: broader implementation blueprint. The initial Python/DuckDB ingestion scaffold and synthetic wheel/suspension constraint fixtures are implemented in [engine/](../engine/README.md). The general rule language, sourced reference data, and production audit workflow below remain future work.
 
 ## First deliverable
 

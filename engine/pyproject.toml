@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specgrid-audit"
+version = "0.1.0"
+description = "Local, evidence-preserving aftermarket catalog ingestion scaffold"
+requires-python = ">=3.11"
+dependencies = ["duckdb>=1.4,<2", "pydantic>=2.12,<3"]
+
+[project.scripts]
+specgrid-audit = "specgrid_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

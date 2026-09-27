@@ -1,0 +1,38 @@
+[
+  {
+    "rule_id": "WHEEL_RADIAL_CLEARANCE",
+    "version": 1,
+    "synthetic": true,
+    "category": "wheel",
+    "part_field": "barrel_inner_diameter_mm",
+    "configuration_field": "brake_envelope_diameter_mm",
+    "operator": "gte",
+    "minimum_margin": 6.0,
+    "unit": "mm",
+    "evidence": "Fictional concentric profiles at the same axial section: 3 mm radial clearance requires 6 mm diametral clearance. Not a 3D fitment certification."
+  },
+  {
+    "rule_id": "WHEEL_HUB_BORE",
+    "version": 1,
+    "synthetic": true,
+    "category": "wheel",
+    "part_field": "center_bore_mm",
+    "configuration_field": "hub_diameter_mm",
+    "operator": "gte",
+    "minimum_margin": 0.0,
+    "unit": "mm",
+    "evidence": "Fictional nominal dimensions: an undersized bore cannot seat over the hub. Oversize, rings, and manufacturing tolerances need separate checks."
+  },
+  {
+    "rule_id": "SUSPENSION_FRONT_AXLE_LOAD",
+    "version": 1,
+    "synthetic": true,
+    "category": "suspension",
+    "part_field": "max_front_axle_load_kg",
+    "configuration_field": "front_axle_load_kg",
+    "operator": "gte",
+    "minimum_margin": 0.0,
+    "unit": "kg",
+    "evidence": "Fictional kit approval limit and vehicle front-axle requirement. Not spring rate, total vehicle mass, or an OEM rating."
+  }
+]
